@@ -1,11 +1,11 @@
 {
   "private": true,
-  "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+  "name": "sidd",
+  "description": "Sidd's Portfolio",
   "version": "0.2.11",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Siddhesh Sawant",
   "license": "0BSD",
-  "starter-name": "gatsby-starter-portfolio-cara",
+  "starter-name": "Sidd's Portfolio",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",

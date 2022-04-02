@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteTitle: `Sidd`,
+    siteTitleAlt: `Sidd's Portfolio`,
+    siteHeadline: `Portfolio`,
+    siteUrl: `https://www.google.com`,
+    siteDescription: `Portfolio`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    siteImage: `/logo.jpg`,
+    author: `@Sidd`,
   },
   plugins: [
     {
@@ -25,9 +25,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Siddhesh`,
+        short_name: `Sidd`,
+        description: `Sidd's Portfolio`,
         start_url: `/`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website
@@ -36,14 +36,14 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/logo.jpg`,
             sizes: `192x192`,
-            type: `image/png`,
+            type: `image/jpg`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/logo.jpg`,
             sizes: `512x512`,
-            type: `image/png`,
+            type: `image/jpg`,
           },
         ],
       },
